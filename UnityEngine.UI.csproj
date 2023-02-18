@@ -141,9 +141,13 @@
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\EventHandle.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Layout\LayoutGroup.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\InputModules\TouchInputModule.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Editor\ShaderGUI\MaterialAssemblyReference\RawRenderQueue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.10\Editor\Generation\Targets\BuiltIn\Editor\ShaderGUI\MaterialAssemblyReference\RawRenderQueue.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Library\PackageCache\com.unity.shadergraph@12.1.10\Editor\Generation\Targets\BuiltIn\Editor\ShaderGUI\MaterialAssemblyReference\MaterialAssemblyReference.asmref" />
     <None Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UnityEngine.UI.asmdef" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Editor\ShaderGUI\MaterialAssemblyReference\MaterialAssemblyReference.asmref" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -424,6 +428,18 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\Unity stuff\Unity\2021.3.18f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

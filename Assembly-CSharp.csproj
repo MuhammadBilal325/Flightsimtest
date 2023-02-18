@@ -56,11 +56,11 @@
     <Analyzer Include="D:\Visual Studio\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Planecontrollernew.cs" />
-    <Compile Include="Assets\Camera Shake.cs" />
-    <Compile Include="Assets\ShipController.cs" />
-    <Compile Include="Assets\Planecontroller.cs" />
-    <Compile Include="Assets\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Planecontrollernew.cs" />
+    <Compile Include="Assets\OldScripts\ShipController.cs" />
+    <Compile Include="Assets\OldScripts\Planecontroller.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Cinemachineshake.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

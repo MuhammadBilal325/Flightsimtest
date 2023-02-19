@@ -367,7 +367,10 @@
 "Assets/OldScripts/ShipController.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/Cinemachineshake.cs"
+"Assets/Scripts/OpeningHover.cs"
 "Assets/Scripts/Planecontrollernew.cs"
+"Assets/SpaceSkies Free/Demo/Scripts/LookCamera.cs"
+"Assets/SpaceSkies Free/Demo/Scripts/SkyboxChanger.cs"
 -langversion:9.0
 
 /deterministic
